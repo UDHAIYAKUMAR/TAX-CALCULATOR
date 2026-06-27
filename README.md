@@ -1,3 +1,1 @@
-# TAX-CALCULATOR
-New Repository
-udhaiyakumar/tax-calculator.github.io
+https://udhaiyakumar.github.io/TAX-CALCULATOR/ # TAX-CALCULATOR
