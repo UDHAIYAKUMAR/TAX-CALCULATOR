@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple GST Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<head>
+  <title>Simple GST Calculator</title>
+  <style>
+    body {
+      font-family: Arial;
+      width: 260px;
+      padding: 10px;
+    }
+    input, select, button {
+      width: 100%;
+      margin: 5px 0;
+      padding: 8px;
+    }
+    .result {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Simple Extension For GST Calculator</h3>
+
+  <input id="value" type="number" placeholder="Enter amount (e.g. 100)" />
+
+  <select id="gst">
+    <option value="5">5% GST</option>
+    <option value="12">12% GST</option>
+    <option value="18">18% GST</option>
+  </select>
+
+  <button id="forward">Including GST</button>
+  <button id="reverse">Excluding GST</button>
+
+  <div class="result" id="result"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
